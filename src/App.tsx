@@ -33,9 +33,9 @@ function NavBar () {
             <AppBar position="static">
             {/* //     <Tabs value={value} onChange={handleChange} aria-label="simple tabs example"> */}
                 <Tabs value={value} onChange={handleChange} >
-                    <LinkTab icon={'HOME'} component={Link} to="/portfolio/home" />
-                    <LinkTab icon={'Development'} component={Link} to="/portfolio/development" />
-                    <LinkTab icon={'Product Management'} component={Link} to="/portfolio/pm" />
+                    <LinkTab icon={'HOME'} component={Link} to="/ea" />
+                    <LinkTab icon={'Development'} component={Link} to="/ea/development" />
+                    <LinkTab icon={'Product Management'} component={Link} to="/ea/pm" />
                 </Tabs>
             </AppBar>
         </div>
@@ -49,9 +49,9 @@ export default function App() {
     <div>
         <NavBar />
         <Switch>
-            <Route exact path="/portfolio/home" component={ Home } />
-            <Route exact path="/portfolio/development" component={ Development } />
-            <Route exact path="/portfolio/pm" component={ ProductManagement } />
+            <Route exact path="/ea" component={ Home } />
+            <Route exact path="/ea/development" component={ Development } />
+            <Route exact path="/ea/pm" component={ ProductManagement } />
             {/* <Redirect from="/" to="/" /> */}
         </Switch>
     </div>
