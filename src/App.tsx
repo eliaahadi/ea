@@ -2,7 +2,7 @@
 import * as React from "react";
 // import * as ReactDOM from "react-dom";
 // import { MonitorContainer } from "Monitor/MonitorContainer";
-import { HashRouter as Router, Route, Redirect, Switch, Link, LinkProps } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect, Switch, Link, LinkProps } from 'react-router-dom';
 // import { RemoteContainer } from "Remote/RemoteContainer";
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
@@ -33,9 +33,9 @@ function NavBar () {
             <AppBar position="static">
             {/* //     <Tabs value={value} onChange={handleChange} aria-label="simple tabs example"> */}
                 <Tabs value={value} onChange={handleChange} >
-                    <LinkTab icon={<Home />} component={Link} to="/home" />
-                    <LinkTab icon={<Development />} component={Link} to="/development" />
-                    <LinkTab icon={<ProductManagement />} component={Link} to="/pm" />
+                    <LinkTab icon={<Home />} component={Link} to="/portfolio/home" />
+                    <LinkTab icon={<Development />} component={Link} to="/portfolio/development" />
+                    <LinkTab icon={<ProductManagement />} component={Link} to="/portfolio/pm" />
                 </Tabs>
             </AppBar>
         </div>
@@ -49,9 +49,9 @@ export default function App() {
     <div>
         <NavBar />
         <Switch>
-            <Route exact path="/home" component={ Home } />
-            <Route exact path="/development" component={ Development } />
-            <Route exact path="/pm" component={ ProductManagement } />
+            <Route exact path="/portfolio/home" component={ Home } />
+            <Route exact path="/portfolio/development" component={ Development } />
+            <Route exact path="/portfolio/pm" component={ ProductManagement } />
             <Redirect from="/" to="/" />
         </Switch>
     </div>
