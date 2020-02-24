@@ -49,11 +49,23 @@ function Projects() {
         </Grid>
         <Grid item xs={6}>
           <h4 className={classes.paper}>​
-          <Typography className={classes.root}>
-      <Link href="https://elia314.github.io/ea/attachments/Moov_Product_Breakdown.pdf">
-            Moov Product Breakdown
-      </Link>
-      </Typography>
+            <Typography className={classes.root}>
+              <Link href="https://elia314.github.io/ea/attachments/Bayer_Product_Validation.pdf">
+                Bayer Product Validation
+              </Link>
+            </Typography>
+          </h4>
+          <h5 className={classes.paper}>​
+            I worked on this product validation with Bayer client and did user stories, peronas, empathy maps, and usability A/B tests.
+          </h5>
+        </Grid>
+        <Grid item xs={6}>
+          <h4 className={classes.paper}>​
+            <Typography className={classes.root}>
+              <Link href="https://elia314.github.io/ea/attachments/Moov_Product_Breakdown.pdf">
+                Moov Product Breakdown
+              </Link>
+            </Typography>
           </h4>
           <h5 className={classes.paper}>​
             I worked on this product breakdown of the Moov wearable that includes user flows, product funnels, market sizing, and lean canvas models.
@@ -61,7 +73,11 @@ function Projects() {
         </Grid>
         <Grid item xs={6}>
           <h4 className={classes.paper}>​
-            Moov habit forming Minimum Viable Product (MVP) mockup design
+            <Typography className={classes.root}>
+              <Link href="https://elia314.github.io/ea/attachments/MoovHabitForming.png">
+                Moov habit forming Minimum Viable Product (MVP) mockup design
+              </Link>
+            </Typography>
           </h4>
           <h5 className={classes.paper}>​
             I worked on this MVP mockup for ideating on habit forming behaviors for fitness users.
@@ -69,7 +85,11 @@ function Projects() {
         </Grid>
         <Grid item xs={6}>
           <h4 className={classes.paper}>​
-            Capital One Authentication Case Study
+            <Typography className={classes.root}>
+              <Link href="https://elia314.github.io/ea/attachments/Cap1_Authentication_Case_Study.pdf">
+                Capital One Authentication Case Study
+              </Link>
+            </Typography>
           </h4>
           <h5 className={classes.paper}>​
             I did a case study of analyzing the authentication problems and proposing solutions.
@@ -77,10 +97,26 @@ function Projects() {
         </Grid>
         <Grid item xs={6}>
           <h4 className={classes.paper}>​
-            Delta Airlines Air Travel Design Challenge
+            <Typography className={classes.root}>
+              <Link href="https://elia314.github.io/ea/attachments/Delta_Airlines_Design_Challenge.pdf">
+                Delta Airlines Air Travel Design Challenge
+              </Link>
+            </Typography>
           </h4>
           <h5 className={classes.paper}>​
             I prepared a problem defintion, user profiles, and solutions on air travel design challenges.
+          </h5>
+        </Grid>
+        <Grid item xs={6}>
+          <h4 className={classes.paper}>​
+            <Typography className={classes.root}>
+              <Link href="https://elia314.github.io/ea/attachments/Darby_Smart_App_User_Retention.pdf">
+                Darby Smart App User Retention Study
+              </Link>
+            </Typography>
+          </h4>
+          <h5 className={classes.paper}>​
+            I did a case study to understand user retention for the Darby DIY mobile app.
           </h5>
         </Grid>
       </Grid>
