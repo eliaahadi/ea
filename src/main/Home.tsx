@@ -12,17 +12,16 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1,
     },
     sectionLight: {
-      // height: '500px',
-      // flexGrow: 1,
       backgroundColor: '#6fafff'
     },
     paper: {
-      padding: theme.spacing(2),
+      padding: theme.spacing(1),
       textAlign: 'center',
       color: theme.palette.text.secondary,
     },
     descriptionText: {
-      padding: theme.spacing(2),
+      padding: theme.spacing(1),
+      margin: '0 100px 0 100px',
       textAlign: 'left',
       color: theme.palette.text.secondary,
     },
