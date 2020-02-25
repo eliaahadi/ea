@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Redirect, Switch, Link, LinkProps } fro
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import { default as Tab, TabProps } from '@material-ui/core/Tab';
-import Grid from '@material-ui/core/Grid';
 
 import Home from './Home';
 import ProductManagement from './ProductManagement';
