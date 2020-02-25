@@ -27,13 +27,13 @@ const useStyles = makeStyles((theme: Theme) =>
       color: theme.palette.text.secondary,
     },
     imageContainer: {
-      justifyContent: 'center',
+      textAlign: 'center',
     },
     image: {
       height: '200px',
       width: '200px',
-      // padding: theme.spacing(2),
-      // textAlign: 'center',
+      borderRadius: '50px',
+      padding: theme.spacing(3),
     }
   }),
 );
