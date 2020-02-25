@@ -7,32 +7,25 @@ import { default as Tab, TabProps } from '@material-ui/core/Tab';
 import Home from './Home';
 import ProductManagement from './ProductManagement';
 import Development from './Development';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import HomeIcon from '@material-ui/icons/Home';
+import CodeIcon from '@material-ui/icons/Code';
+import TimelineIcon from '@material-ui/icons/Timeline';
 
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    root: {
-      // flexGrow: 1,
-      justifyContent: 'center'
-    },
-  }),
-);
 const LinkTab: React.ComponentType<TabProps & LinkProps> = Tab as React.ComponentType<TabProps & LinkProps>;
 
 function NavBar () {
   const [value, setValue] = React.useState(0);
-  const classes = useStyles();
 
   const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
     setValue(newValue);
   };
   return (
-    <div className={classes.root}>
-      <AppBar position="static">
-        <Tabs value={value} onChange={handleChange} >
-          <LinkTab icon={'HOME'} component={Link} to="/ea" />
-          <LinkTab icon={'Development'} component={Link} to="/ea/development" />
-          <LinkTab icon={'Product Management'} component={Link} to="/ea/pm" />
+    <div >
+      <AppBar position="static" >
+        <Tabs value={value} onChange={handleChange} centered>
+          <LinkTab label='Home' icon={ <HomeIcon />} component={Link} to="/ea" />
+          <LinkTab label='Development' icon={<CodeIcon />} component={Link} to="/ea/development" />
+          <LinkTab label='Product Management' icon={<TimelineIcon />} component={Link} to="/ea/pm" />
         </Tabs>
       </AppBar>
     </div>
