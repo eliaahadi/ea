@@ -41,7 +41,7 @@ export default function App() {
           <Route exact path="/ea" component={ Home } />
           <Route exact path="/ea/development" component={ Development } />
           <Route exact path="/ea/pm" component={ ProductManagement } />
-          <Redirect from="/" to="/" />
+          <Redirect from="/" to="/ea" />
         </Switch>
       </div>
     </Router>
