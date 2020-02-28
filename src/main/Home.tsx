@@ -16,12 +16,13 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     paper: {
       padding: theme.spacing(1),
+      margin: '0 0 20px 0',
       textAlign: 'center',
       color: theme.palette.text.secondary,
     },
     descriptionText: {
       padding: theme.spacing(1),
-      margin: '0 100px 0 100px',
+      margin: '0 100px 20px 100px',
       textAlign: 'left',
       color: theme.palette.text.secondary,
     },
@@ -110,7 +111,7 @@ function HowIWork() {
         <Grid item xs={6}>
           <Paper className={classes.paper}>
             <h5>
-            Research/Study
+              Research/Study
             </h5>
             <div>
               Research ideas and study new techniques

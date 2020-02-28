@@ -59,7 +59,7 @@ function FullStack() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>
             <Typography className={classes.root}>
-              <Link href="https://www.homads.com">
+              <Link href="https://www.bayer.com/">
                 Bayer Digital Transformation Website
               </Link>
               <div className={classes.descriptionText}>​
@@ -141,7 +141,7 @@ function FullStack() {
                 Features built: JavaScript fundamentals, Quiz app, Async web server, portfolio
               </div>
               <div className={classes.techText}>​
-                Tech used: JavaScript, React, NodeJS, Jasmine, Mocha, Chai
+                Tech used: JavaScript, React, NodeJS, jQuery
               </div>
             </Typography>
           ​</h4>
@@ -199,17 +199,17 @@ function FrontEnd() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>
             <Typography className={classes.root}>
-              <Link href="​​https://www.thinkful.com/bootcamp/web-development/full-time/">
+              <Link href="​​https://github.com/eliaahadi/image_cropper">
                 Image Cropper
               </Link>
               <div className={classes.descriptionText}>​
-                Mentor students in full stack web development
+                Developed UI for cropping images on mobile apps
               </div>
               <div className={classes.featuresText}>​
-                Features built: JavaScript fundamentals, Quiz app, Async web server, portfolio
+                Features built: image cropping UI
               </div>
               <div className={classes.techText}>​
-                Tech used: JavaScript, React, NodeJS, Jasmine, Mocha, Chai
+                Tech used: JavaScript, React Native
               </div>
             </Typography>
           ​</h4>
