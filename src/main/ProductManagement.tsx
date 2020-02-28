@@ -44,7 +44,7 @@ function Projects() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>​
             <Typography className={classes.root}>
-              <Link href="https://elia314.github.io/ea/attachments/Bayer_Product_Validation.pdf">
+              <Link href="https://eliaahadi.github.io/ea/attachments/Bayer_Product_Validation.pdf">
                 Bayer Product Validation
               </Link>
               <div className={classes.descriptionText}>​
@@ -56,7 +56,7 @@ function Projects() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>​
             <Typography className={classes.root}>
-              <Link href="https://elia314.github.io/ea/attachments/Moov_Product_Breakdown.pdf">
+              <Link href="https://eliaahadi.github.io/ea/attachments/Moov_Product_Breakdown.pdf">
                 Moov Product Breakdown
               </Link>
               <div className={classes.descriptionText}>​
@@ -68,7 +68,7 @@ function Projects() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>​
             <Typography className={classes.root}>
-              <Link href="https://elia314.github.io/ea/attachments/MoovHabitForming.png">
+              <Link href="https://eliaahadi.github.io/ea/attachments/MoovHabitForming.png">
                 Moov habit forming Minimum Viable Product (MVP) mockup design
               </Link>
               <div className={classes.descriptionText}>​
@@ -80,7 +80,7 @@ function Projects() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>​
             <Typography className={classes.root}>
-              <Link href="https://elia314.github.io/ea/attachments/Cap1_Authentication_Case_Study.pdf">
+              <Link href="https://eliaahadi.github.io/ea/attachments/Cap1_Authentication_Case_Study.pdf">
                 Capital One Authentication Case Study
               </Link>
               <div className={classes.descriptionText}>​
@@ -92,7 +92,7 @@ function Projects() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>​
             <Typography className={classes.root}>
-              <Link href="https://elia314.github.io/ea/attachments/Delta_Airlines_Design_Challenge.pdf">
+              <Link href="https://eliaahadi.github.io/ea/attachments/Delta_Airlines_Design_Challenge.pdf">
                 Delta Airlines Air Travel Design Challenge
               </Link>
               <div className={classes.descriptionText}>​
@@ -104,7 +104,7 @@ function Projects() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>​
             <Typography className={classes.root}>
-              <Link href="https://elia314.github.io/ea/attachments/Darby_Smart_App_User_Retention.pdf">
+              <Link href="https://eliaahadi.github.io/ea/attachments/Darby_Smart_App_User_Retention.pdf">
                 Darby Smart App User Retention Study
               </Link>
               <div className={classes.descriptionText}>​

@@ -163,13 +163,18 @@ function News() {
           <h3 className={classes.paper}>NEWS</h3>
           <h4 className={classes.paper}>This website is built with JavaScript, TypeScript, React, React Router, Material-UI.</h4>
           <Typography className={classes.paper}>
-            <Link href="https://www.linkedin.com/in/eliaahadi/​​">
+            <Link target="_blank" href="https://www.linkedin.com/in/eliaahadi">
               My LinkedIn
             </Link>
           </Typography>
           <Typography className={classes.paper}>
-            <Link href="https://github.com/eliaahadi​​">
+            <Link target="_blank" href="https://www.github.com/eliaahadi">
               My Github
+            </Link>
+          </Typography>
+          <Typography className={classes.paper}>
+            <Link target="_blank" href="https://eliaahadi.github.io/ea/attachments/Elia_Ahadi_PResume.pdf">
+              My Resume (as of Feb 25, 2020)
             </Link>
           </Typography>
         </Grid>
