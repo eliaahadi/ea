@@ -1,5 +1,5 @@
 import * as React from "react";
-import { BrowserRouter as Router, Route, Redirect, Switch, Link, LinkProps } from 'react-router-dom';
+import { HashRouter as Router, Route, Redirect, Switch, Link, LinkProps } from 'react-router-dom';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import { default as Tab, TabProps } from '@material-ui/core/Tab';
@@ -23,9 +23,9 @@ function NavBar () {
     <div >
       <AppBar position="static" >
         <Tabs value={value} onChange={handleChange} centered>
-          <LinkTab label='Home' icon={ <HomeIcon />} component={Link} to="/ea" />
-          <LinkTab label='Development' icon={<CodeIcon />} component={Link} to="/ea/development" />
-          <LinkTab label='Product Management' icon={<TimelineIcon />} component={Link} to="/ea/pm" />
+          <LinkTab label='Home' icon={ <HomeIcon />} component={Link} to="/" />
+          <LinkTab label='Development' icon={<CodeIcon />} component={Link} to="/development" />
+          <LinkTab label='Product Management' icon={<TimelineIcon />} component={Link} to="/pm" />
         </Tabs>
       </AppBar>
     </div>
@@ -38,10 +38,10 @@ export default function App() {
       <div>
         <NavBar />
         <Switch>
-          <Route exact path="/ea" component={ Home } />
-          <Route exact path="/ea/development" component={ Development } />
-          <Route exact path="/ea/pm" component={ ProductManagement } />
-          <Redirect from="/" to="/ea" />
+          <Route exact path="/" component={ Home } />
+          <Route exact path="/development" component={ Development } />
+          <Route exact path="/pm" component={ ProductManagement } />
+          <Redirect from="" to="/" />
         </Switch>
       </div>
     </Router>
