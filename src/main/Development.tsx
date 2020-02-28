@@ -11,9 +11,6 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1,
     },
     section: {
-      // height: '500px',
-      // flexGrow: 1,
-
     },
     paper: {
       padding: theme.spacing(2),
@@ -59,11 +56,11 @@ function FullStack() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>
             <Typography className={classes.root}>
-              <Link href="https://www.bayer.com/">
+              <Link target="_blank" href="https://www.bayer.com/">
                 Bayer Digital Transformation Website
               </Link>
               <div className={classes.descriptionText}>​
-                Bayer website in Tokyo built frontend mostly and some backend.
+                Bayer website in Tokyo built frontend mostly and some backend
               </div>
               <div className={classes.featuresText}>​
                 Features built: Search page, listings, survey, add/edit medical record
@@ -77,11 +74,11 @@ function FullStack() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>
             <Typography className={classes.root}>
-              <Link href="https://www.homads.com">
+              <Link target="_blank" href="https://www.homads.com">
                 Homads Website
               </Link>
               <div className={classes.descriptionText}>​
-                Real estate website in Austin built frontend mostly with some backend integration.
+                Real estate website in Austin built frontend mostly with some backend integration
               </div>
               <div className={classes.featuresText}>​
                 Features built: Homepage, survey, search page
@@ -95,11 +92,11 @@ function FullStack() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>
             <Typography className={classes.root}>
-              <Link href="​​https://www.pocket-change.jp/en/​​">
+              <Link target="_blank" href="https://www.pocket-change.jp​​">
                 PocketChange Website
               </Link>
               <div className={classes.descriptionText}>​
-                Fintech website for currency conversion built fullstack features.
+                Fintech website for currency conversion built fullstack features
               </div>
               <div className={classes.featuresText}>​
                 Features built: Currency Converter Dashboard
@@ -113,11 +110,11 @@ function FullStack() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>
             <Typography className={classes.root}>
-              <Link href="​​https://gitai.tech/">
+              <Link target="_blank" href="https://www.gitai.tech/">
                 GITAI Robot System Monitoring Web App
               </Link>
               <div className={classes.descriptionText}>​
-                Robot Monitoring web interface for processing and viewing robot system data.
+                Robot Monitoring web interface for processing and viewing robot system data
               </div>
               <div className={classes.featuresText}>​
                 Features built: Web server, search site, table listings, hosting service
@@ -131,7 +128,7 @@ function FullStack() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>
             <Typography className={classes.root}>
-              <Link href="​​https://www.thinkful.com/bootcamp/web-development/full-time/">
+              <Link target="_blank" href="https://www.thinkful.com/bootcamp/web-development/full-time/">
                 Thinkful Full Stack Web Mentor
               </Link>
               <div className={classes.descriptionText}>​
@@ -149,11 +146,11 @@ function FullStack() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>
             <Typography className={classes.root}>
-              <Link href="​​https://github.com/eliaahadi/dashboard_spa">
+              <Link target="_blank" href="https://www.github.com/eliaahadi/dashboard_spa">
                 Stock Exchange Dashboard Web App
               </Link>
               <div className={classes.descriptionText}>​
-                Dashboard web application using stock exchange APIs.
+                Dashboard web application using stock exchange APIs
               </div>
               <div className={classes.featuresText}>​
                 Features built: Dashboard, API integration
@@ -167,7 +164,7 @@ function FullStack() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>
             <Typography className={classes.root}>
-              <Link href="​​https://github.com/eliaahadi/buildBlockchain">
+              <Link target="_blank" href="https://www.github.com/eliaahadi/buildBlockchain">
                 BlockChain Web App
               </Link>
               <div className={classes.descriptionText}>​
@@ -178,6 +175,24 @@ function FullStack() {
               </div>
               <div className={classes.techText}>​
                 Tech used: JavaScript, React, C#, Jest
+              </div>
+            </Typography>
+          ​</h4>
+        </Grid>
+        <Grid item xs={6}>
+          <h4 className={classes.paper}>
+            <Typography className={classes.root}>
+              <Link target="_blank" href="https://www.github.com/eliaahadi/react-node-stripe-payment">
+                Stripe Payment Web App
+              </Link>
+              <div className={classes.descriptionText}>​
+                Built payment app
+              </div>
+              <div className={classes.featuresText}>​
+                Features built: eCommerce, Transactions, Payments
+              </div>
+              <div className={classes.techText}>​
+                Tech used: JavaScript, React, Node, Stripe API
               </div>
             </Typography>
           ​</h4>
@@ -199,7 +214,7 @@ function FrontEnd() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>
             <Typography className={classes.root}>
-              <Link href="​​https://github.com/eliaahadi/image_cropper">
+              <Link target="_blank" href="https://www.github.com/eliaahadi/image_cropper">
                 Image Cropper
               </Link>
               <div className={classes.descriptionText}>​
@@ -217,7 +232,7 @@ function FrontEnd() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>
             <Typography className={classes.root}>
-              <Link href="​​https://www.codechrysalis.io/foundations">
+              <Link target="_blank" href="https://www.codechrysalis.io/foundations">
                 Code Chyrsalis Foundations Instructor
               </Link>
               <div className={classes.descriptionText}>​
@@ -249,7 +264,7 @@ function BackEnd() {
         <Grid item xs={6}>
           <h4 className={classes.paper}>
             <Typography className={classes.root}>
-              <Link href="​​https://github.com/eliaahadi/python-django-backend-image-thumbnail-service">
+              <Link target="_blank" href="https://www.github.com/eliaahadi/python-django-backend-image-thumbnail-service">
                 Image Thumbnail Service
               </Link>
               <div className={classes.descriptionText}>​
