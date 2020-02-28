@@ -11,9 +11,6 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1,
     },
     section: {
-      // height: '500px',
-      // flexGrow: 1,
-
     },
     paper: {
       padding: theme.spacing(2),
