@@ -110,9 +110,9 @@ function HowIWork() {
         </Grid>
         <Grid item xs={6}>
           <Paper className={classes.paper}>
-            <h5>
+            <h4>
               Research/Study
-            </h5>
+            </h4>
             <div>
               Research ideas and study new techniques
             </div>
@@ -120,9 +120,9 @@ function HowIWork() {
         </Grid>        
         <Grid item xs={6}>
           <Paper className={classes.paper}>
-            <h5>
+            <h4>
               Strategy/Design
-            </h5>
+            </h4>
             <div>
               Implement the strategy and design of projects
             </div>
@@ -130,9 +130,9 @@ function HowIWork() {
         </Grid>        
         <Grid item xs={6}>
           <Paper className={classes.paper}>
-            <h5>
+            <h4>
               Build/Grow
-            </h5>
+            </h4>
             <div>
               Build and grow anything, whether it's teams, data, processes
             </div>
@@ -140,9 +140,9 @@ function HowIWork() {
         </Grid>        
         <Grid item xs={6}>
           <Paper className={classes.paper}>
-            <h5>
+            <h4>
             Test/Refactor
-            </h5>
+            </h4>
             <div>
               Test and refactor for optimized solution, repeat
             </div>
