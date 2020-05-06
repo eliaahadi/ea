@@ -70,7 +70,7 @@ function WhoAmI() {
               I have worked in USA, Afghanistan, India, Japan, China, and Australia.
             </h4>
             <h4 className={classes.descriptionText}>
-              Currently, I specialize in React/Redux for frontend development and web servers with NodeJS and Python/Django for backend development.
+              Currently, I specialize in product and project management with experience in React/Redux for frontend development and web servers with NodeJS and Python/Django for backend development.
             </h4>
         </Grid>
       </Grid>
