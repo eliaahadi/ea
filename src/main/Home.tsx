@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     paper: {
       padding: theme.spacing(1),
-      margin: '0 0 20px 0',
+      margin: '0 20px 20px 20px',
       textAlign: 'center',
       color: theme.palette.text.secondary,
     },
@@ -46,7 +46,7 @@ function Title() {
       <Grid container spacing={3} >
         <Grid item xs={12}>
           <h2 className={classes.paper}>Elia Ahadi</h2>
-          <h3 className={classes.paper}>Full Stack Developer | Product Manager | Educator</h3>
+          <h3 className={classes.paper}>Product Manager | Full Stack Developer | Educator</h3>
         </Grid>
         <Grid item xs={12} className={classes.imageContainer}>
           <img src={EliaThumbnail} alt="Elia" className={classes.image} />
@@ -173,7 +173,7 @@ function News() {
             </Link>
           </Typography>
           <Typography className={classes.paper}>
-            <Link target="_blank" href="https://eliaahadi.github.io/ea/attachments/Elia_Ahadi_PResume.pdf">
+            <Link target="_blank" href="https://eliaahadi.github.io/ea/src/attachments/Elia_Ahadi_NProjResume.pdf">
               My Resume (as of Feb 25, 2020)
             </Link>
           </Typography>

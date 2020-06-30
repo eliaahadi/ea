@@ -24,8 +24,8 @@ function NavBar () {
       <AppBar position="static" >
         <Tabs value={value} onChange={handleChange} centered>
           <LinkTab label='Home' icon={ <HomeIcon />} component={Link} to="/" />
-          <LinkTab label='Development' icon={<CodeIcon />} component={Link} to="/development" />
           <LinkTab label='Product Management' icon={<TimelineIcon />} component={Link} to="/pm" />
+          <LinkTab label='Development' icon={<CodeIcon />} component={Link} to="/development" />
         </Tabs>
       </AppBar>
     </div>
@@ -39,8 +39,8 @@ export default function App() {
         <NavBar />
         <Switch>
           <Route exact path="/" component={ Home } />
-          <Route exact path="/development" component={ Development } />
           <Route exact path="/pm" component={ ProductManagement } />
+          <Route exact path="/development" component={ Development } />
           <Redirect from="" to="/" />
         </Switch>
       </div>
