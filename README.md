@@ -1,3 +1,5 @@
+To make changes, switch on master branch and run ```npm run deploy```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
