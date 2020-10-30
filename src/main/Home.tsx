@@ -173,8 +173,8 @@ function News() {
             </Link>
           </Typography>
           <Typography className={classes.paper}>
-            <Link target="_blank" href="https://eliaahadi.github.io/ea/src/attachments/Elia_Ahadi_NProjResume.pdf">
-              My Resume (as of Feb 25, 2020)
+            <Link target="_blank" href="https://www.github.com/eliaahadi/ea/blob/master/src/attachments/Elia_Ahadi_DProjResume.pdf">
+              My Resume (as of Oct 30, 2020)
             </Link>
           </Typography>
         </Grid>
