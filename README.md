@@ -1,5 +1,8 @@
-To make changes, switch on master branch and run ```npm run deploy```
 
+## NOTE added by Elia
+To make changes, add/edit code, then switch on master branch and run ```npm run deploy```.
+
+## Standard Create React App Read Me
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

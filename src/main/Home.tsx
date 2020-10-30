@@ -65,12 +65,24 @@ function WhoAmI() {
         <Grid item xs={12}>
           <h3 className={classes.paper}>WHO</h3>
             <h4 className={classes.descriptionText}>
-              I'm an experienced software development and technical consulting professional with over 5 years experience. 
-              Throughout my career and the variety of roles I've done, they revolve around me being a builder who loves creating useful products and services. 
-              I have worked in USA, Afghanistan, India, Japan, China, and Australia.
+              I'm an experienced product/program management and technical consulting professional with over 5 years experience. 
+              I have technical experience in in React/Redux for frontend development and web servers with NodeJS and Python/Django for backend development.
             </h4>
             <h4 className={classes.descriptionText}>
-              Currently, I specialize in product and project management with experience in React/Redux for frontend development and web servers with NodeJS and Python/Django for backend development.
+              Throughout my career and the variety of roles I've done, they revolve around me building useful products and services. 
+              I have also worked in USA, Afghanistan, India, Japan, China, and Australia.
+            </h4>
+            <h4 className={classes.descriptionText}>
+              Some examples of building teams, products, or services have been:
+              <li>
+                An operations manager leading technical teams in Afghanistan with DARPA
+              </li>
+              <li>
+                A first product manager at a wearable startup building products in mobile, web, and IoT
+              </li>
+              <li>
+                A full stack software engineer engineering products in Property Tech (PropTech), FinTech, and Healthcare
+              </li>
             </h4>
         </Grid>
       </Grid>
@@ -87,11 +99,7 @@ function WhereIWork() {
         <Grid item xs={12}>
           <h3 className={classes.paper}>WHERE</h3>
           <h4 className={classes.descriptionText}>
-            I currently work in product management and full stack web development.
-          </h4>
-          <h4 className={classes.descriptionText}>
-            In a previous life of mine, I worked in the Pentagon and at DARPA in Afghanistan. 
-            At DARPA, I led a small team in implementing cutting-edge prototypes in technical and cultural programs.
+            I'm located in USA and work in product and program management building products for various industries.
           </h4>
         </Grid>
       </Grid>
