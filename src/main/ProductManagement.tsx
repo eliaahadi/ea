@@ -69,7 +69,7 @@ function Projects() {
           <h4 className={classes.paper}>​
             <Typography className={classes.root}>
               <Link target="_blank" href="https://www.github.com/eliaahadi/ea/blob/master/src/attachments/MoovHabitForming.png">
-                Moov habit forming Minimum Viable Product (MVP) mockup design
+                Moov Habit Forming Minimum Viable Product (MVP) Mockup Design
               </Link>
               <div className={classes.descriptionText}>​
                 I worked on this MVP mockup for ideating on habit forming behaviors for fitness users.
@@ -109,6 +109,30 @@ function Projects() {
               </Link>
               <div className={classes.descriptionText}>​
                 I did a case study to understand user retention for the Darby DIY mobile app.
+              </div>
+            </Typography>
+          </h4>
+        </Grid>
+        <Grid item xs={6}>
+          <h4 className={classes.paper}>​
+            <Typography className={classes.root}>
+              <Link target="_blank" href="https://www.github.com/eliaahadi/ea/blob/master/src/attachments/Fannie_Mae_TPM_30-60-90-Day_Plan.pdf">
+                Initial 90 day Fannie Mae TPM Plan
+              </Link>
+              <div className={classes.descriptionText}>​
+                I created an initial 90 day work plan for a TPM role at Fannie Mae.
+              </div>
+            </Typography>
+          </h4>
+        </Grid>
+        <Grid item xs={6}>
+          <h4 className={classes.paper}>​
+            <Typography className={classes.root}>
+              <Link target="_blank" href="https://www.github.com/eliaahadi/ea/blob/master/src/attachments/CFP_Tervela_MarketingPlan.pdf">
+                Cloud FastPath Marketing Plan
+              </Link>
+              <div className={classes.descriptionText}>​
+                I did a marketing plan for CFP (cloud migration service).
               </div>
             </Typography>
           </h4>
