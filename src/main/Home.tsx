@@ -46,7 +46,7 @@ function Title() {
       <Grid container spacing={3} >
         <Grid item xs={12}>
           <h2 className={classes.paper}>Elia Ahadi</h2>
-          <h3 className={classes.paper}>Product Manager | Full Stack Developer | Educator</h3>
+          <h3 className={classes.paper}>Operations Manager | Full Stack Developer | Educator</h3>
         </Grid>
         <Grid item xs={12} className={classes.imageContainer}>
           <img src={EliaThumbnail} alt="Elia" className={classes.image} />
@@ -65,7 +65,7 @@ function WhoAmI() {
         <Grid item xs={12}>
           <h3 className={classes.paper}>WHO</h3>
             <h4 className={classes.descriptionText}>
-              I'm an experienced product/program management and technical consulting professional with over 5 years experience. 
+              I'm an experienced operations program management and technical consulting professional with over 5 years experience. 
               I have technical experience in in React/Redux for frontend development and web servers with NodeJS and Python/Django for backend development.
             </h4>
             <h4 className={classes.descriptionText}>
@@ -99,7 +99,7 @@ function WhereIWork() {
         <Grid item xs={12}>
           <h3 className={classes.paper}>WHERE</h3>
           <h4 className={classes.descriptionText}>
-            I'm located in USA and work in product and program management building products for various industries.
+            I'm located in USA and work in operations and program management building products for various industries.
           </h4>
         </Grid>
       </Grid>

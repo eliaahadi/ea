@@ -142,7 +142,7 @@ function Projects() {
   )
 }
 
-export default function ProductManagement() {
+export default function OperationsManagement() {
   return (
     <div>
       <Projects />
