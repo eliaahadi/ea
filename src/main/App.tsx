@@ -5,10 +5,12 @@ import Tabs from '@material-ui/core/Tabs';
 import { default as Tab, TabProps } from '@material-ui/core/Tab';
 
 import Home from './Home';
-import OperationsManagement from './OperationsManagement';
+import TechnicalProgramManagement from './TechnicalProgramManagement';
 import Development from './Development';
+import Talks from './Talks';
 import HomeIcon from '@material-ui/icons/Home';
 import CodeIcon from '@material-ui/icons/Code';
+import ForumIcon from '@material-ui/icons/Forum';
 import TimelineIcon from '@material-ui/icons/Timeline';
 
 const LinkTab: React.ComponentType<TabProps & LinkProps> = Tab as React.ComponentType<TabProps & LinkProps>;
@@ -24,8 +26,9 @@ function NavBar () {
       <AppBar position="static" >
         <Tabs value={value} onChange={handleChange} centered>
           <LinkTab label='Home' icon={ <HomeIcon />} component={Link} to="/" />
-          <LinkTab label='Operations Management' icon={<TimelineIcon />} component={Link} to="/operations" />
+          <LinkTab label='Technical Program Management' icon={<TimelineIcon />} component={Link} to="/tpm" />
           <LinkTab label='Development' icon={<CodeIcon />} component={Link} to="/development" />
+          <LinkTab label='Talks' icon={<ForumIcon />} component={Link} to="/talks" />
         </Tabs>
       </AppBar>
     </div>
@@ -39,8 +42,9 @@ export default function App() {
         <NavBar />
         <Switch>
           <Route exact path="/" component={ Home } />
-          <Route exact path="/operations" component={ OperationsManagement } />
+          <Route exact path="/tpm" component={ TechnicalProgramManagement } />
           <Route exact path="/development" component={ Development } />
+          <Route exact path="/talks" component={ Talks } />
           <Redirect from="" to="/" />
         </Switch>
       </div>

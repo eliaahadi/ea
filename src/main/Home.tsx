@@ -30,10 +30,10 @@ const useStyles = makeStyles((theme: Theme) =>
       textAlign: 'center',
     },
     image: {
-      height: '200px',
-      width: '200px',
+      height: '90%',
+      width: '50%',
       borderRadius: '50px',
-      padding: theme.spacing(3),
+      padding: theme.spacing(1),
     }
   }),
 );
@@ -46,7 +46,7 @@ function Title() {
       <Grid container spacing={3} >
         <Grid item xs={12}>
           <h2 className={classes.paper}>Elia Ahadi</h2>
-          <h3 className={classes.paper}>Operations Manager | Full Stack Developer | Educator</h3>
+          <h3 className={classes.paper}>Technical Program Manager | Full Stack Developer | Educator</h3>
         </Grid>
         <Grid item xs={12} className={classes.imageContainer}>
           <img src={EliaThumbnail} alt="Elia" className={classes.image} />
@@ -65,7 +65,7 @@ function WhoAmI() {
         <Grid item xs={12}>
           <h3 className={classes.paper}>WHO</h3>
             <h4 className={classes.descriptionText}>
-              I'm an experienced operations program management and technical consulting professional with over 5 years experience. 
+              I'm an experienced technical program management and consulting professional with over 5 years experience. 
               I have technical experience in in React/Redux for frontend development and web servers with NodeJS and Python/Django for backend development.
             </h4>
             <h4 className={classes.descriptionText}>
@@ -75,10 +75,13 @@ function WhoAmI() {
             <h4 className={classes.descriptionText}>
               Some examples of building teams, products, or services have been:
               <li>
+                A technical program manager building products at KeyBank in student and personal loans programs
+              </li>
+              <li>
                 An operations manager leading technical teams in Afghanistan with DARPA
               </li>
               <li>
-                A first product manager at a wearable startup building products in mobile, web, and IoT
+                A first technical product manager at a wearable startup building products in mobile, web, and IoT
               </li>
               <li>
                 A full stack software engineer engineering products in Property Tech (PropTech), FinTech, and Healthcare
