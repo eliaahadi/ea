@@ -6,6 +6,7 @@ import { default as Tab, TabProps } from '@material-ui/core/Tab';
 
 import Home from './Home';
 import TechnicalProgramManagement from './TechnicalProgramManagement';
+import SolutionArchitecture from './SolutionArchitecture';
 import Development from './Development';
 import Talks from './Talks';
 import HomeIcon from '@material-ui/icons/Home';
@@ -27,6 +28,7 @@ function NavBar () {
         <Tabs value={value} onChange={handleChange} centered>
           <LinkTab label='Home' icon={ <HomeIcon />} component={Link} to="/" />
           <LinkTab label='Technical Program Management' icon={<TimelineIcon />} component={Link} to="/tpm" />
+          <LinkTab label='Solution Architect' icon={<TimelineIcon />} component={Link} to="/solutionarchitect" />
           <LinkTab label='Development' icon={<CodeIcon />} component={Link} to="/development" />
           <LinkTab label='Talks' icon={<ForumIcon />} component={Link} to="/talks" />
         </Tabs>
@@ -43,6 +45,7 @@ export default function App() {
         <Switch>
           <Route exact path="/" component={ Home } />
           <Route exact path="/tpm" component={ TechnicalProgramManagement } />
+          <Route exact path="/solutionarchitect" component={ SolutionArchitecture } />
           <Route exact path="/development" component={ Development } />
           <Route exact path="/talks" component={ Talks } />
           <Redirect from="" to="/" />
